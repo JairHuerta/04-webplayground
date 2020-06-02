@@ -5,4 +5,10 @@ from .models import Page
 class PageAdmin(admin.ModelAdmin):
     list_display = ('title', 'order')
 
+    #Inyección de css en pages
+    class Media:
+        css = {
+            'all': ('pages/css/custom_ckeditor.css',)
+        }
+
 admin.site.register(Page, PageAdmin)

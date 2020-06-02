@@ -10,10 +10,12 @@
         <div>
             <form action="" method="post">{% csrf_token %}
                 <table>
-                    {{ form.as_table }}
+                    {{ form.as_p }}
                 </table>
-                <br>
-                <input type="submit" value="Crear página" />
+                <div>
+                  <input type="submit" class="btn btn-primary btn-block" value="Crear página" />
+                </div>
+ 
             </form>
         </div>
       </div>
