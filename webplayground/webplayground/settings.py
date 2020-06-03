@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'ckeditor',
     'core',
     'pages.apps.PagesConfig',
+    'profiles',
 ]
 
 MIDDLEWARE = [
@@ -134,7 +135,7 @@ if DEBUG:
     EMAIL_BACKEND = "django.core.mail.backends.filebased.EmailBackend"
     EMAIL_FILE_PATH = os.path.join(BASE_DIR, "sent_emails")
 else:
-    #Aquóe hay que configurareun email real para producción
+    #Aquí hay que configurar un email real para producción
     pass
 
 #Media Files
