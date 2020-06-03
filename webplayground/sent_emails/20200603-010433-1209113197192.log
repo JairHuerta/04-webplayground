@@ -1,0 +1,26 @@
+Content-Type: text/plain; charset="utf-8"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 8bit
+Subject: =?utf-8?q?Contrase=C3=B1a_restablecida_en_localhost=3A8000?=
+From: webmaster@localhost
+To: prueba@prueba.com
+Date: Wed, 03 Jun 2020 06:04:33 -0000
+Message-ID: 
+ <159116427391.13908.3164325659898464657@DESKTOP-C2OR6P4.huawei.net>
+
+
+Ha recibido este correo electrónico porque ha solicitado restablecer la contraseña para su cuenta en localhost:8000.
+
+Por favor, vaya a la página siguiente y escoja una nueva contraseña.
+
+http://localhost:8000/accounts/reset/Mw/5h1-3b945dd4a66bb77dee99/
+
+Your username, in case you’ve forgotten: Ramón
+
+¡Gracias por usar nuestro sitio!
+
+El equipo de localhost:8000
+
+
+
+-------------------------------------------------------------------------------
